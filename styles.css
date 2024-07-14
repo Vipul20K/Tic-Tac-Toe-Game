@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(39, 130, 160);
+    background-image: url("./images/wallpaperflare.com_wallpaper\ \(1\).jpg");
+    background-size: cover;
+}
+ 
+.heading{
+    display: flex;
+    justify-content: center;
+    animation: 2s anim-popoutin ease infinite;
+}
+.btn-cont{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.buttons{
+    width:600px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: rgb(39, 130, 160); */
+    padding-top: 8px;
+    border-radius: 8px;
+    align-items: center;
+    
+}
+.buttons button{
+    width:180px;
+    height: 180px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 1.5rem 0.4rem rgb(42, 42, 41);
+    font-size: 70px;
+    color: aliceblue;
+    background-color:black;
+}
+#reset{
+    display: flex;
+    justify-content: center;
+
+}
+ .reset-btn{
+    height: 40px;
+    width:80px;
+    background-color: rgb(48, 20, 20);
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: medium;
+    border: none;
+    border-radius: 8px;
+    margin-top: 2px;
+}
+.msg-cont{
+    display: flex;
+    justify-content: center;
+}
+.new-game button{
+    height: 40px;
+    background-color: rgb(48, 20, 20);
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: medium;
+    border: none;
+    border-radius: 8px;
+    margin-top: 2px;
+    padding: 10px 10px;
+}
+.new-game{
+ margin-left: 10px;
+
+}
+.msg{
+    margin-left: 5px;
+    color:yellow;
+}
+.new-btns{
+    display: flex;
+    justify-content: center;
+    
+}
+.hide{
+    display: none;
+}
+
+.reset-btn:hover{
+    background-color: rgba(142, 133, 133, 0.718);
+    color: black;
+    height: 43px;
+    width: 83px;
+
+}
+.new-game button:hover{
+    background-color: rgb(142, 133, 133,0.718);
+    color: black;
+    height: 43px;
+}
+
+.buttons button:hover{
+    box-shadow: 0 0 1rem rgb(231, 235, 244);
+    background-color: rgba(83, 80, 80, 0.507);
+    width:174px;
+    height: 174px;
+}
